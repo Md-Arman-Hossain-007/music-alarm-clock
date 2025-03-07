@@ -2,18 +2,16 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="spotify-alarm",
-    version="0.1.0",
+    name="music-uri-alarm-clock",
+    version="0.1.2",
     author="Md. Arman Hossain",
     author_email="armanhossain.tech@gmail.com",
     description="A beautiful Spotify alarm clock for macOS",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/spotify-alarm",  # Update with your repo
+    url="https://github.com/Md-Arman-Hossain-007/music-alarm-clock.git",  # Update with your repo
     packages=find_packages(),
-    install_requires=[
-        "tkinter",  # Usually bundled with Python, but listed for clarity
-    ],
+    install_requires=[],
     entry_points={
         "console_scripts": [
             "spotify-alarm = spotify_alarm.alarm_clock:main",
